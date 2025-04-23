@@ -14,9 +14,9 @@ fn main() {
         .expect("failed to write instructions");
 
     emu.reg_write(RegisterARM64::X0, 0x11)
-        .expect("failed write R0");
+        .expect("failed write X0");
     emu.reg_write(RegisterARM64::X1, 0xfdcc83c8)
-        .expect("failed write R5");
+        .expect("failed write X1");
 
     emu.emu_start(
         0x1000,
