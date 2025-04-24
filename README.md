@@ -61,6 +61,9 @@ there... Yay, Unicorn now has Rust bindings! :)
 The lib.rs already starts with an Arm 32-bit example, so just edit it and be
 done.
 
+NOTE: There is https://alexaltea.github.io/unicorn.js/ where you can do the same
+in JavaScript, but it only supports MIPS, ARM (32-bit), SPARC and x86 as of now.
+
 ## Running this
 
 Download the Unicorn source release tarball:
